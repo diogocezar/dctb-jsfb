@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Facebook SDK para Javascript</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<h1>Facebook SDK login con Javascript</h1>
+	<a href="#" id="login" class="btn btn-primary">Iniciar Sessão</a>
+	<div id="facebook-session" style="display:none">
+		<h3 id="name"></h3>
+		<ul>
+			<li><strong>Email</strong> <div id="email"></div></li>
+			<li><strong>Biografia</strong> <div id="bio"></div></li>
+			<li><strong>Aniversário</strong> <div id="date"></div></li>
+			<li><strong>Website</strong> <div id="website"></div></li>
+			<li><strong>Gênero</strong> <div id="gender"></div></li>
+			<li><strong>Local</strong> <div id="location"></div></li>
+		</ul>
+		<img id="image"/>
+		<a href="#" id="logout" class="btn btn-danger">Fechar Sessão</a>
+	</div>
+	<script src="./js/oracle.js"></script>
+</body>
+</html>
